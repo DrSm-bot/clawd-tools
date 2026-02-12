@@ -9,7 +9,7 @@
   "scripts": {
     "build": "tsc",
     "dev": "ts-node src/index.ts",
-    "prepublish": "npm run build"
+    "prepare": "npm run build"
   },
   "keywords": ["cli", "openclaw", "agent", "status"],
   "author": "",
