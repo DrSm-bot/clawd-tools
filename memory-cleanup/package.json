@@ -1,0 +1,22 @@
+{
+  "name": "memory-cleanup",
+  "version": "1.0.0",
+  "description": "CLI for analyzing and archiving workspace memory folders",
+  "license": "MIT",
+  "type": "commonjs",
+  "bin": {
+    "memory-cleanup": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "cli-table3": "^0.6.5"
+  },
+  "devDependencies": {
+    "@types/node": "^24.5.2",
+    "typescript": "^5.9.2"
+  }
+}
